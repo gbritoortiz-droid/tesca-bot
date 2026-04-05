@@ -3,7 +3,7 @@ import sqlite3
 from flask import Flask, request
 import requests
 
-TOKEN = os.getenv("TELEGRAM_TOKEN")
+TOKEN = TOKEN = "8672346222:AAH8a6cW62ChlH-sgVrV1CwSoGIOmBgkdlg"
 WEBHOOK_PATH = "/telegram/webhook"
 
 app = Flask(__name__)
